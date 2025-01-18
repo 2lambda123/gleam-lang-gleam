@@ -289,12 +289,6 @@ dependencies = [
 
 [[package]]
 name = "capnp"
-version = "0.14.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2dca085c2c7d9d65ad749d450b19b551efaa8e3476a439bdca07aca8533097f3"
-
-[[package]]
-name = "capnp"
 version = "0.19.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b11832e6fb7a695c4a63cc42bd97bd2cda7165cd850caf5aff9a3d0e617720ed"
@@ -308,7 +302,7 @@ version = "0.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c75ba30e0f08582d53c2f3710cf4bb65ff562614b1ba86906d7391adffe189ec"
 dependencies = [
- "capnp 0.19.3",
+ "capnp",
 ]
 
 [[package]]
@@ -879,7 +873,7 @@ dependencies = [
  "bincode",
  "bytes",
  "camino",
- "capnp 0.14.11",
+ "capnp",
  "capnpc",
  "codespan-reporting",
  "debug-ignore",
