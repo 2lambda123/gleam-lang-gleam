@@ -17,7 +17,7 @@ ignore = "0.4.22"
 # Allow user to type in sensitive information without showing it in the shell
 rpassword = "5.0.1"
 # Async runtime
-tokio = { version = "1.24.2", features = ["rt", "rt-multi-thread"] }
+tokio = { version = "1.43.0", features = ["rt", "rt-multi-thread"] }
 # Further file system functions (i.e. copy directory)
 fs_extra = "1.2.0"
 tracing-subscriber = { version = "0.3.18", features = ["fmt", "env-filter"] }
